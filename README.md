@@ -126,31 +126,31 @@ This project demonstrates the advantages of Software Defined Networking by enabl
 
 ## 🔹 Mininet Execution
 This shows the Mininet topology being created successfully with hosts and switch.  
-![Mininet](./screenshots/s1.png)
+![s1](./screenshots/s1.png)
 
 ---
 
 ## 🔹 Allowed Traffic (h1 → h2)
 This demonstrates successful communication between allowed hosts.  
-![Allowed](./screenshots/s2.png)
+![s2](./screenshots/s2.png)
 
 ---
 
 ## 🔹 Blocked Traffic (h1 → h3)
 This shows that traffic is blocked as per firewall rule.  
-![Blocked](./screenshots/s3.png)
+![s3](./screenshots/s3.png)
 
 ---
 
 ## 🔹 Throughput Test (iperf)
 This measures the bandwidth between hosts.  
-![iperf](./screenshots/s4.png)
+![s4](./screenshots/s4.png)
 
 ---
 
 ## 🔹 Flow Table Entries
 This displays OpenFlow rules installed in the switch.  
-![Flow Table](./screenshots/s5.png)
+![s5](./screenshots/s5.png)
 
  
 
