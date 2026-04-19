@@ -65,7 +65,7 @@ cd ~/pox
 
 📸 **Screenshot 1: Controller Running**
 
-![Controller](1.png)
+![Controller Output](screenshots/1.jpeg)
 
 ✔ Should show:
 
@@ -83,7 +83,7 @@ sudo mn --custom topology.py --topo mytopo --controller=remote,ip=127.0.0.1,port
 
 📸 **Screenshot 2: Topology Creation**
 
-![Ping](2.png)
+![Topology](screenshots/2.jpeg)
 
 ✔ Should show:
 
@@ -100,7 +100,8 @@ mininet> pingall
 
 📸 **Screenshot 3: Ping Result**
 
-![Path Logs](3.png)
+![Ping Result](screenshots/3.jpeg)
+
 
 ✔ Expected:
 
@@ -114,8 +115,8 @@ mininet> pingall
 
 📸 **Screenshot 4: Path Logs (MOST IMPORTANT)**
 
-![Flow Table](4.png)
-![Flow Table](41.png)
+![Path Logs](screenshots/4.jpeg)
+![Path Logs](screenshots/41.jpeg)
 
 ✔ Example:
 
@@ -135,7 +136,7 @@ sudo ovs-ofctl dump-flows s1
 
 📸 **Screenshot 5: Flow Table**
 
-![Flow Table](5png)
+![Flow Table](screenshots/5.jpeg)
 
 ✔ Should show:
 
@@ -152,7 +153,8 @@ mininet> h1 iperf -c h2
 ```
 
 📸 **Screenshot 6: iperf Result**
-![iperf](6.png)
+![iperf Result](screenshots/6.jpeg)
+
 
 ✔ Should show:
 
